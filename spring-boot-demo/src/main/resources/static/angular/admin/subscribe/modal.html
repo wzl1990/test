@@ -1,0 +1,192 @@
+
+						<div class="modal-header">
+							<button type="button" class="close" ng-click="cancel()"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+							<h4 class="modal-title">&nbsp;Subscribe</h4>
+						</div>
+						<div class="modal-body">
+						   <form ng-submit="submit()" name="myForm" class="form-horizontal form-validation">
+			                      <input type="hidden" ng-model="subscribe.id"  />
+		                          <div class="form-group from_gourp_left" >
+		                              <label class="col-sm-2 control-label">clientName:</label>
+		                              <div class="col-sm-4">
+		                                  <input type="text" ng-model="subscribe.clientName"  class="wzl form-control" name="clientName" ng-required="true" ng-pattern="/^[a-zA-Z]{1}/" asynverification ng-minlength="2" ng-maxlength="20" placeholder="请输入client名称" />
+		                                  <div class="has-error" ng-show="myForm.clientName.$dirty">
+		                                      <span ng-show="myForm.clientName.$error.required">该项必填项</span>
+		                                      <span ng-show="myForm.clientName.$error.minlength">长度不能低于3</span>
+		                                      <span ng-show="myForm.clientName.$error.maxlength">长度不能超过20</span>
+		                                      <span ng-show="myForm.clientName.$error.pattern">英文字母开始</span>
+		                                      <span ng-show="myForm.clientName.$pending.asynverification">正在检测是否重名...</span>
+                                              <span ng-show="myForm.clientName.$error.asynverification">该名称已经使用，请重命名!</span>
+		                                  </div>
+		                              </div>
+		                             <label class="col-sm-1 control-label">url:</label>
+		                             <div class="col-sm-5">
+			                                  <input type="url" autocomplete="off" name="url" ng-required="true"  ng-model="subscribe.url" class="form-control" placeholder="请输入URL">
+			                                  <div class="has-error" ng-show="myForm.url.$dirty">
+			                                      <span ng-show="myForm.url.$error.url">请输入正确的URL主页</span>
+			                                  </div>
+			                         </div>
+		                         </div>
+		                         
+		                         <div class="form-group from_gourp_left">
+		                              <label class="col-sm-2 control-label">type:</label>
+		                               <div class="col-sm-4">
+			                               <label class="radio-inline">
+							                    <input type="radio" ng-required="true" name="type" ng-model="subscribe.type" ng-checked="true"  value="ORDINARY" /> 普通
+							                </label>
+							                <label class="radio-inline">
+							                    <input type="radio" ng-required="true" name="type" checked ng-model="subscribe.type" value="ORDER" /> 顺序
+							                </label>
+							                <label class="radio-inline">
+							                    <input type="radio" ng-required="true"  name="type" checked ng-model="subscribe.type" value="TRANSACTION" /> 事务
+							                </label>
+		                              </div>
+		                              <label class="col-sm-1 control-label">topic:</label>
+		                             <div class="col-sm-5">
+			                                  <input type="input"  name="topic" ng-required="true"  ng-model="subscribe.topic" class="form-control" placeholder="请输入Topic">
+			                                  <div class="has-error" ng-show="myForm.topic.$dirty">
+			                                        <span ng-show="myForm.topic.$error.required">该项必填项</span>
+			                                  </div>
+			                         </div>
+		                         </div>
+		                         
+		                         <div class="form-group from_gourp_left">
+		                             <label class="col-sm-2 control-label">tag:</label>
+		                             <div class="col-sm-4">
+			                                  <input type="input"  name="tag" ng-required="true"  ng-model="subscribe.tag" class="form-control" placeholder="请输入Tag">
+			                                  <div class="has-error" ng-show="myForm.tag.$dirty">
+			                                        <span ng-show="myForm.tag.$error.required">该项必填项</span>
+			                                  </div>
+			                         </div>
+			                         <label class="col-sm-1 control-label">groupName:</label>
+		                             <div class="col-sm-5">
+			                                  <input type="input"  name="topic" ng-required="true"  ng-model="subscribe.groupName" class="form-control" placeholder="请输入groupName">
+			                                  <div class="has-error" ng-show="myForm.groupName.$dirty">
+			                                        <span ng-show="myForm.groupName.$error.required">该项必填项</span>
+			                                  </div>
+			                         </div>
+		                         </div>
+		                         
+		                         
+		                          <div class="form-group from_gourp_left">
+		                             <label class="col-sm-2 control-label">consumeFromWhere:</label>
+		                             <div class="col-sm-4">
+			                                  <label class="radio-inline">
+							                    <input type="radio" ng-required="true" name="consumeFromWhere" ng-model="subscribe.consumeFromWhere" ng-checked="true"  value="CONSUME_FROM_FIRST_OFFSET" /> FIRST
+							                </label>
+							                <label class="radio-inline">
+							                    <input type="radio" ng-required="true" name="consumeFromWhere" checked ng-model="subscribe.consumeFromWhere" value="CONSUME_FROM_LAST_OFFSET" /> LAST
+							                </label>
+			                         </div>
+			                         <label class="col-sm-1 control-label">Email:</label>
+		                             <div class="col-sm-5">
+			                                   <input type="email"  name="email" ng-required="true"  ng-model="subscribe.email" class="form-control" placeholder="请输入邮箱">
+				                               <div class="has-error" ng-show="myForm.email.$dirty">
+				                                      <span ng-show="myForm.email.$error.email">请输入正确的邮箱地址</span>
+				                                </div>
+			                         </div>
+		                         </div>
+		                         
+		                         <div class="form-group from_gourp_left">
+		                             <label class="col-sm-2 control-label">ThreadMin:</label>
+		                             <div class="col-sm-4">
+			                                 <input type="number"  name="consumeThreadMin" min="5" max="150" ng-required="true" ng-model="subscribe.consumeThreadMin" class="form-control" placeholder="consumeThreadMin">
+				                                 <div class="has-error" ng-show="myForm.consumeThreadMin.$dirty">
+				                                      <span ng-show="myForm.consumeThreadMin.$error.required">必填项</span>
+				                                      <span ng-show="myForm.consumeThreadMin.$error.number">数字</span>
+				                                      <span ng-show="myForm.consumeThreadMin.$error.min">不能低于5</span>
+				                                      <span ng-show="myForm.consumeThreadMin.$error.max">不能超过150</span>
+				                                  </div>
+			                         </div>
+			                         <label class="col-sm-1 control-label">ThreadMax:</label>
+		                             <div class="col-sm-5">
+				                               <input type="number"  name="consumeThreadMax" min="5" max="150" ng-required="true" ng-model="subscribe.consumeThreadMax" class="form-control" placeholder="consumeThreadMax">
+				                               <div class="has-error" ng-show="myForm.consumeThreadMax.$dirty">
+				                                      <span ng-show="myForm.consumeThreadMax.$error.required">必填项</span>
+				                                      <span ng-show="myForm.consumeThreadMax.$error.number">数字</span>
+				                                      <span ng-show="myForm.consumeThreadMax.$error.min">不能低于5</span>
+				                                      <span ng-show="myForm.consumeThreadMax.$error.max">不能超过150</span>
+				                               </div>
+			                         </div>
+		                         </div>
+		                         
+		                         
+		                         <div class="form-group from_gourp_left">
+		                             <label class="col-sm-2 control-label">pullThresholdForQueue:</label>
+		                             <div class="col-sm-4">
+			                                 <input type="number"  name="pullThresholdForQueue" min="0" max="150" ng-required="true" ng-model="subscribe.pullThresholdForQueue" class="form-control" placeholder="pullThresholdForQueue">
+				                                 <div class="has-error" ng-show="myForm.consumeThreadMin.$dirty">
+				                                      <span ng-show="myForm.pullThresholdForQueue.$error.required">必填项</span>
+				                                      <span ng-show="myForm.pullThresholdForQueue.$error.number">数字</span>
+				                                      <span ng-show="myForm.pullThresholdForQueue.$error.min">不能低于0</span>
+				                                      <span ng-show="myForm.pullThresholdForQueue.$error.max">不能超过150</span>
+				                                  </div>
+			                         </div>
+			                         <label class="col-sm-1 control-label">MessageBatchMaxSize:</label>
+		                             <div class="col-sm-5">
+				                               <input type="number"  name="consumeMessageBatchMaxSize" min="0" max="150" ng-required="true" ng-model="subscribe.consumeMessageBatchMaxSize" class="form-control" placeholder="consumeMessageBatchMaxSize">
+				                               <div class="has-error" ng-show="myForm.consumeThreadMax.$dirty">
+				                                      <span ng-show="myForm.consumeMessageBatchMaxSize.$error.required">必填项</span>
+				                                      <span ng-show="myForm.consumeMessageBatchMaxSize.$error.number">数字</span>
+				                                      <span ng-show="myForm.consumeMessageBatchMaxSize.$error.max">不能超过150</span>
+				                               </div>
+			                         </div>
+		                         </div>
+		                         
+		                         <div class="form-group from_gourp_left">
+		                             <label class="col-sm-2 control-label">pullBatchSize:</label>
+		                             <div class="col-sm-4">
+			                                 <input type="number"  name="pullBatchSize" min="1" max="150" ng-required="true" ng-model="subscribe.pullBatchSize" class="form-control" placeholder="pullBatchSize">
+				                                 <div class="has-error" ng-show="myForm.pullBatchSize.$dirty">
+				                                      <span ng-show="myForm.pullBatchSize.$error.required">必填项</span>
+				                                      <span ng-show="myForm.pullBatchSize.$error.number">数字</span>
+				                                      <span ng-show="myForm.pullBatchSize.$error.min">不能低于1</span>
+				                                      <span ng-show="myForm.pullBatchSize.$error.max">不能超过150</span>
+				                                  </div>
+			                         </div>
+			                         <label class="col-sm-1 control-label">pullInterval:</label>
+		                             <div class="col-sm-5">
+				                               <input type="number"  name="pullInterval" min="1" max="150" ng-required="true" ng-model="subscribe.pullInterval" class="form-control" placeholder="pullInterval">
+				                               <div class="has-error" ng-show="myForm.pullInterval.$dirty">
+				                                      <span ng-show="myForm.pullInterval.$error.required">必填项</span>
+				                                      <span ng-show="myForm.pullInterval.$error.number">数字</span>
+				                                      <span ng-show="myForm.pullInterval.$error.min">不能低于1</span>
+				                                      <span ng-show="myForm.pullInterval.$error.max">不能超过150</span>
+				                               </div>
+			                         </div>
+		                         </div>
+		                         
+		                          <div class="form-group from_gourp_left">
+		                             <label class="col-sm-2 control-label">businessKey:</label>
+		                             <div class="col-sm-4">
+			                                 <input type="input"  name="businessKey"  ng-model="subscribe.businessKey" class="form-control" placeholder="businessKey">
+			                         </div>
+			                         <label class="col-sm-1 control-label">状态:</label>
+		                             <div class="col-sm-5">
+				                                 <label class="radio-inline">
+						                            <input type="radio" ng-required="true" name="status" ng-model="subscribe.status" ng-checked="true"  value="START" /> 开始
+									                </label>
+									                <label class="radio-inline">
+									                    <input type="radio" ng-required="true" name="status"  ng-model="subscribe.status" value="STOP" /> 停止
+									                </label>
+						                    </div>
+		                         </div>
+		                          <div class="form-group from_gourp_left">
+		                             <label class="col-sm-2 control-label">retryCount:</label>
+		                             <div class="col-sm-4">
+			                                 <input type="number"  name="retryCount" min="1" max="5" ng-required="true" ng-model="subscribe.retryCount" class="form-control" placeholder="pullBatchSize">
+				                                 <div class="has-error" ng-show="myForm.retryCount.$dirty">
+				                                      <span ng-show="myForm.retryCount.$error.required">必填项</span>
+				                                      <span ng-show="myForm.retryCount.$error.number">数字</span>
+				                                      <span ng-show="myForm.retryCount.$error.min">不能低于1</span>
+				                                      <span ng-show="myForm.retryCount.$error.max">不能超过5</span>
+				                                  </div>
+			                         </div>
+		                         </div>
+			                </form>
+						</div>
+						<div class="modal-footer modal-footer-text-align">
+						  <input type="button"  ng-click="submit()" value="保存" class="btn btn-primary btn-sm" >
+                          <button type="button" ng-click="reset()" class="btn btn-warning btn-sm" >重置</button>
+                          <button type="button" ng-click="cancel()" class="btn btn-default btn-sm" >关闭</button>
+						</div>

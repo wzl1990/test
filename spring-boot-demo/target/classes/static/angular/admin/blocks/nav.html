@@ -1,0 +1,60 @@
+<!-- admin/blocks/nav.html -->
+<!-- list -->
+<ul class="nav">
+  <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+    <span translate="导航">导航</span>
+  </li>  
+  <li ui-sref-active="active">
+    <a ui-sref="app.newslist">
+      <i class="glyphicon glyphicon-book icon text-info-dker"></i>
+      <span class="font-bold">新闻管理</span>
+    </a>
+  </li>
+   <li ui-sref-active="active">
+    <a ui-sref="app.test">
+      <i class="glyphicon glyphicon-book icon text-info-dker"></i>
+      <span class="font-bold">test</span>
+    </a>
+  </li>
+  <li ui-sref-active="active">
+    <a ui-sref="app.demo">
+      <i class="glyphicon glyphicon-book icon text-info-dker"></i>
+      <span class="font-bold">demo</span>
+    </a>
+  </li>
+  <li ui-sref-active="active">
+    <a ui-sref="app.subscribe">
+      <i class="glyphicon glyphicon-book icon text-info-dker"></i>
+      <span class="font-bold">subscribe</span>
+    </a>
+  </li>
+  <li>
+    <a href class="auto">
+      <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+      <i class="glyphicon glyphicon-stats icon text-primary-dker"></i>
+      <span class="font-bold" translate="aside.nav.DASHBOARD">Dashboard</span>
+    </a>
+    <ul class="nav nav-sub dk">
+      <li class="nav-sub-header">
+        <a href>
+          <span translate="aside.nav.DASHBOARD">Dashboard</span>
+        </a>
+      </li>
+      <li ui-sref-active="active">
+        <a ui-sref="app.test">
+          <span>Dashboard v1</span>
+        </a>
+      </li>
+      <li ui-sref-active="active">
+        <a ui-sref="app.demo">
+          <b class="label bg-info pull-right">N</b>
+          <span>Dashboard v2</span>
+        </a>
+      </li>
+    </ul>
+  </li>
+</ul>
+<!-- / list -->

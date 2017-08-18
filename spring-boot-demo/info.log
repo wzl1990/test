@@ -1,0 +1,235 @@
+2017-08-18 14:39:46.368 [main] INFO  com.lenovo.rm.Application -Starting Application on bogon with PID 62893 (/Users/zhenglong/project/test/spring-boot-demo/target/classes started by zhenglong in /Users/zhenglong/project/test/spring-boot-demo)
+2017-08-18 14:39:46.371 [main] INFO  com.lenovo.rm.Application -The following profiles are active: test
+2017-08-18 14:39:46.430 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e07db1f: startup date [Fri Aug 18 14:39:46 CST 2017]; root of context hierarchy
+2017-08-18 14:39:47.429 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.lenovo.rm]' package. Please check your configuration.
+2017-08-18 14:39:47.518 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-08-18 14:39:47.745 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73926eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-08-18 14:39:48.040 [main] INFO  org.xnio -XNIO version 3.3.6.Final
+2017-08-18 14:39:48.058 [main] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.3.6.Final
+2017-08-18 14:39:48.097 [main] WARN  io.undertow.websockets.jsr -UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2017-08-18 14:39:48.097 [main] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2017-08-18 14:39:48.110 [main] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2017-08-18 14:39:48.111 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1682 ms
+2017-08-18 14:39:48.210 [main] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-18 14:39:48.213 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-18 14:39:48.214 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-18 14:39:48.214 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-18 14:39:48.214 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-18 14:39:48.488 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e07db1f: startup date [Fri Aug 18 14:39:46 CST 2017]; root of context hierarchy
+2017-08-18 14:39:48.545 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/update],methods=[POST]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.update(com.lenovo.rm.entity.Demo)
+2017-08-18 14:39:48.546 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/isRegistered]}" onto public boolean com.lenovo.rm.controller.DemoController.isRegistered(java.lang.String) throws java.lang.InterruptedException
+2017-08-18 14:39:48.546 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/create]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.create(com.lenovo.rm.entity.Demo)
+2017-08-18 14:39:48.546 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/index]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.demo()
+2017-08-18 14:39:48.546 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/test],methods=[GET]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.getIndexPage()
+2017-08-18 14:39:48.547 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/getAllByPage]}" onto public com.lenovo.rm.page.Pagination<com.lenovo.rm.entity.Demo> com.lenovo.rm.controller.DemoController.getList(com.lenovo.rm.page.PageBean)
+2017-08-18 14:39:48.547 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/getList]}" onto public java.util.List<com.lenovo.rm.entity.Demo> com.lenovo.rm.controller.DemoController.getList()
+2017-08-18 14:39:48.547 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/getById]}" onto public com.lenovo.rm.entity.Demo com.lenovo.rm.controller.DemoController.getById(java.lang.Integer)
+2017-08-18 14:39:48.549 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-18 14:39:48.549 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-18 14:39:48.569 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 14:39:48.570 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 14:39:48.583 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -Detected @ExceptionHandler methods in globalExceptionHandler
+2017-08-18 14:39:48.601 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 14:39:48.636 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "test" are currently active).
+2017-08-18 14:39:48.640 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-08-18 14:39:48.644 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "test" are currently active).
+
+2017-08-18 14:40:47.519 [main] INFO  com.lenovo.rm.Application -Starting Application on bogon with PID 62896 (/Users/zhenglong/project/test/spring-boot-demo/target/classes started by zhenglong in /Users/zhenglong/project/test/spring-boot-demo)
+2017-08-18 14:40:47.522 [main] INFO  com.lenovo.rm.Application -No active profile set, falling back to default profiles: default
+2017-08-18 14:40:47.561 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@478190fc: startup date [Fri Aug 18 14:40:47 CST 2017]; root of context hierarchy
+2017-08-18 14:40:48.402 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.lenovo.rm]' package. Please check your configuration.
+2017-08-18 14:40:48.499 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-08-18 14:40:48.734 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c94f58e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-08-18 14:40:48.946 [main] INFO  org.xnio -XNIO version 3.3.6.Final
+2017-08-18 14:40:48.957 [main] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.3.6.Final
+2017-08-18 14:40:48.988 [main] WARN  io.undertow.websockets.jsr -UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2017-08-18 14:40:48.989 [main] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2017-08-18 14:40:49.001 [main] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2017-08-18 14:40:49.002 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1441 ms
+2017-08-18 14:40:49.099 [main] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-18 14:40:49.102 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-18 14:40:49.103 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-18 14:40:49.103 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-18 14:40:49.103 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-18 14:40:49.373 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@478190fc: startup date [Fri Aug 18 14:40:47 CST 2017]; root of context hierarchy
+2017-08-18 14:40:49.410 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/update],methods=[POST]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.update(com.lenovo.rm.entity.Demo)
+2017-08-18 14:40:49.411 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/isRegistered]}" onto public boolean com.lenovo.rm.controller.DemoController.isRegistered(java.lang.String) throws java.lang.InterruptedException
+2017-08-18 14:40:49.411 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/create]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.create(com.lenovo.rm.entity.Demo)
+2017-08-18 14:40:49.411 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/getList]}" onto public java.util.List<com.lenovo.rm.entity.Demo> com.lenovo.rm.controller.DemoController.getList()
+2017-08-18 14:40:49.411 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/getAllByPage]}" onto public com.lenovo.rm.page.Pagination<com.lenovo.rm.entity.Demo> com.lenovo.rm.controller.DemoController.getList(com.lenovo.rm.page.PageBean)
+2017-08-18 14:40:49.411 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/index]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.demo()
+2017-08-18 14:40:49.411 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/test],methods=[GET]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.getIndexPage()
+2017-08-18 14:40:49.412 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/getById]}" onto public com.lenovo.rm.entity.Demo com.lenovo.rm.controller.DemoController.getById(java.lang.Integer)
+2017-08-18 14:40:49.413 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-18 14:40:49.413 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-18 14:40:49.432 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 14:40:49.433 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 14:40:49.444 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -Detected @ExceptionHandler methods in globalExceptionHandler
+2017-08-18 14:40:49.457 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 14:40:49.487 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2017-08-18 14:40:49.492 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-08-18 14:40:49.495 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+2017-08-18 14:41:40.038 [main] INFO  com.lenovo.rm.Application -Starting Application on bogon with PID 62899 (/Users/zhenglong/project/test/spring-boot-demo/target/classes started by zhenglong in /Users/zhenglong/project/test/spring-boot-demo)
+2017-08-18 14:41:40.042 [main] INFO  com.lenovo.rm.Application -The following profiles are active: test
+2017-08-18 14:41:40.082 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1189dd52: startup date [Fri Aug 18 14:41:40 CST 2017]; root of context hierarchy
+2017-08-18 14:41:41.145 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.lenovo.rm]' package. Please check your configuration.
+2017-08-18 14:41:41.220 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-08-18 14:41:41.428 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9538ecb6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-08-18 14:41:41.670 [main] INFO  org.xnio -XNIO version 3.3.6.Final
+2017-08-18 14:41:41.680 [main] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.3.6.Final
+2017-08-18 14:41:41.709 [main] WARN  io.undertow.websockets.jsr -UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2017-08-18 14:41:41.709 [main] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2017-08-18 14:41:41.720 [main] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2017-08-18 14:41:41.720 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1638 ms
+2017-08-18 14:41:41.826 [main] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-18 14:41:41.829 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-18 14:41:41.829 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-18 14:41:41.830 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-18 14:41:41.830 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-18 14:41:42.075 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1189dd52: startup date [Fri Aug 18 14:41:40 CST 2017]; root of context hierarchy
+2017-08-18 14:41:42.110 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/update],methods=[POST]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.update(com.lenovo.rm.entity.Demo)
+2017-08-18 14:41:42.110 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/isRegistered]}" onto public boolean com.lenovo.rm.controller.DemoController.isRegistered(java.lang.String) throws java.lang.InterruptedException
+2017-08-18 14:41:42.111 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/create]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.create(com.lenovo.rm.entity.Demo)
+2017-08-18 14:41:42.111 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/test],methods=[GET]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.getIndexPage()
+2017-08-18 14:41:42.111 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/index]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.demo()
+2017-08-18 14:41:42.111 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/getAllByPage]}" onto public com.lenovo.rm.page.Pagination<com.lenovo.rm.entity.Demo> com.lenovo.rm.controller.DemoController.getList(com.lenovo.rm.page.PageBean)
+2017-08-18 14:41:42.111 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/getList]}" onto public java.util.List<com.lenovo.rm.entity.Demo> com.lenovo.rm.controller.DemoController.getList()
+2017-08-18 14:41:42.111 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/getById]}" onto public com.lenovo.rm.entity.Demo com.lenovo.rm.controller.DemoController.getById(java.lang.Integer)
+2017-08-18 14:41:42.113 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-18 14:41:42.113 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-18 14:41:42.131 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 14:41:42.131 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 14:41:42.143 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -Detected @ExceptionHandler methods in globalExceptionHandler
+2017-08-18 14:41:42.156 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 14:41:42.187 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "test" are currently active).
+2017-08-18 14:41:42.191 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-08-18 14:41:42.194 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "test" are currently active).
+
+2017-08-18 14:42:28.513 [main] INFO  com.lenovo.rm.Application -Starting Application on bogon with PID 62901 (/Users/zhenglong/project/test/spring-boot-demo/target/classes started by zhenglong in /Users/zhenglong/project/test/spring-boot-demo)
+2017-08-18 14:42:28.521 [main] INFO  com.lenovo.rm.Application -The following profiles are active: test
+2017-08-18 14:42:28.633 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@531f4093: startup date [Fri Aug 18 14:42:28 CST 2017]; root of context hierarchy
+2017-08-18 14:42:29.709 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.lenovo.rm]' package. Please check your configuration.
+2017-08-18 14:42:29.772 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-08-18 14:42:30.180 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a5d9f3e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-08-18 14:42:30.583 [main] INFO  org.xnio -XNIO version 3.3.6.Final
+2017-08-18 14:42:30.600 [main] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.3.6.Final
+2017-08-18 14:42:30.654 [main] WARN  io.undertow.websockets.jsr -UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2017-08-18 14:42:30.655 [main] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2017-08-18 14:42:30.683 [main] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2017-08-18 14:42:30.684 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2053 ms
+2017-08-18 14:42:30.864 [main] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-18 14:42:30.869 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-18 14:42:30.870 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-18 14:42:30.871 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-18 14:42:30.871 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-18 14:42:31.251 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@531f4093: startup date [Fri Aug 18 14:42:28 CST 2017]; root of context hierarchy
+2017-08-18 14:42:31.317 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/update],methods=[POST]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.update(com.lenovo.rm.entity.Demo)
+2017-08-18 14:42:31.318 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/isRegistered]}" onto public boolean com.lenovo.rm.controller.DemoController.isRegistered(java.lang.String) throws java.lang.InterruptedException
+2017-08-18 14:42:31.318 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/create]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.create(com.lenovo.rm.entity.Demo)
+2017-08-18 14:42:31.319 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/getList]}" onto public java.util.List<com.lenovo.rm.entity.Demo> com.lenovo.rm.controller.DemoController.getList()
+2017-08-18 14:42:31.319 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/getAllByPage]}" onto public com.lenovo.rm.page.Pagination<com.lenovo.rm.entity.Demo> com.lenovo.rm.controller.DemoController.getList(com.lenovo.rm.page.PageBean)
+2017-08-18 14:42:31.319 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/index]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.demo()
+2017-08-18 14:42:31.319 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/test],methods=[GET]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.getIndexPage()
+2017-08-18 14:42:31.319 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/getById]}" onto public com.lenovo.rm.entity.Demo com.lenovo.rm.controller.DemoController.getById(java.lang.Integer)
+2017-08-18 14:42:31.322 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-18 14:42:31.322 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-18 14:42:31.364 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 14:42:31.364 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 14:42:31.385 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -Detected @ExceptionHandler methods in globalExceptionHandler
+2017-08-18 14:42:31.411 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 14:42:31.457 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "test" are currently active).
+2017-08-18 14:42:31.462 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-08-18 14:42:31.466 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (the profiles "test" are currently active).
+
+2017-08-18 14:43:29.778 [main] INFO  com.lenovo.rm.Application -Starting Application on bogon with PID 62905 (/Users/zhenglong/project/test/spring-boot-demo/target/classes started by zhenglong in /Users/zhenglong/project/test/spring-boot-demo)
+2017-08-18 14:43:29.782 [main] INFO  com.lenovo.rm.Application -The following profiles are active: test
+2017-08-18 14:43:29.875 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15ff3e9e: startup date [Fri Aug 18 14:43:29 CST 2017]; root of context hierarchy
+2017-08-18 14:43:30.970 [main] INFO  org.xnio -XNIO version 3.3.6.Final
+2017-08-18 14:43:30.978 [main] INFO  org.xnio.nio -XNIO NIO Implementation Version 3.3.6.Final
+2017-08-18 14:43:31.006 [main] WARN  io.undertow.websockets.jsr -UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2017-08-18 14:43:31.006 [main] WARN  io.undertow.websockets.jsr -UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2017-08-18 14:43:31.015 [main] INFO  io.undertow.servlet -Initializing Spring embedded WebApplicationContext
+2017-08-18 14:43:31.015 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1140 ms
+2017-08-18 14:43:31.096 [main] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-18 14:43:31.099 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-18 14:43:31.100 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-18 14:43:31.100 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-18 14:43:31.100 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-18 14:43:31.320 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15ff3e9e: startup date [Fri Aug 18 14:43:29 CST 2017]; root of context hierarchy
+2017-08-18 14:43:31.360 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/update],methods=[POST]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.update(com.lenovo.rm.entity.Demo)
+2017-08-18 14:43:31.360 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/isRegistered]}" onto public boolean com.lenovo.rm.controller.DemoController.isRegistered(java.lang.String) throws java.lang.InterruptedException
+2017-08-18 14:43:31.360 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/create]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.create(com.lenovo.rm.entity.Demo)
+2017-08-18 14:43:31.361 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/index]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.demo()
+2017-08-18 14:43:31.361 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/test],methods=[GET]}" onto public java.lang.String com.lenovo.rm.controller.DemoController.getIndexPage()
+2017-08-18 14:43:31.361 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/getAllByPage]}" onto public com.lenovo.rm.page.Pagination<com.lenovo.rm.entity.Demo> com.lenovo.rm.controller.DemoController.getList(com.lenovo.rm.page.PageBean)
+2017-08-18 14:43:31.361 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/getList]}" onto public java.util.List<com.lenovo.rm.entity.Demo> com.lenovo.rm.controller.DemoController.getList()
+2017-08-18 14:43:31.361 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/admin/demo/getById]}" onto public com.lenovo.rm.entity.Demo com.lenovo.rm.controller.DemoController.getById(java.lang.Integer)
+2017-08-18 14:43:31.363 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-18 14:43:31.363 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-18 14:43:31.381 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 14:43:31.381 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 14:43:31.392 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -Detected @ExceptionHandler methods in globalExceptionHandler
+2017-08-18 14:43:31.403 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-18 14:43:31.511 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2017-08-18 14:43:31.562 [main] INFO  o.s.b.c.e.u.UndertowEmbeddedServletContainer -Undertow started on port(s) 8080 (http)
+2017-08-18 14:43:31.570 [main] INFO  com.lenovo.rm.Application -Started Application in 2.127 seconds (JVM running for 2.75)
+2017-08-18 14:43:38.422 [XNIO-2 task-1] INFO  io.undertow.servlet -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-18 14:43:38.422 [XNIO-2 task-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2017-08-18 14:43:38.432 [XNIO-2 task-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
