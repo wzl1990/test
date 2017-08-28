@@ -1,0 +1,30 @@
+
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(±Œ•¯
+?squid:S1481"*Remove this unused "count" local variable.(é¡Î™
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÍÄ¦
+Nsquid:S1854"9Remove this useless assignment to local variable "count".(é¡Î™
+Dsquid:S1611"/Remove the parentheses around the "e" parameter(„’õü
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÖÃùúşÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Èâäıÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(òÔÇÍ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(™è´
+Isquid:S1611"/Remove the parentheses around the "e" parameter(øÁµıÿÿÿÿ
+Isquid:S1611"/Remove the parentheses around the "e" parameter(·¨²Èùÿÿÿÿ
+Fsquid:S3655"1Call "op.isPresent()" before accessing the value.(™è´
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÍÄ¦
+Isquid:S1611"/Remove the parentheses around the "e" parameter(¿´¸şøÿÿÿÿ
+Dsquid:S1611"/Remove the parentheses around the "e" parameter(„’õü
+Fsquid:S3655"1Call "op.isPresent()" before accessing the value.(™è´
+Dsquid:S1611"/Remove the parentheses around the "e" parameter(ëÜÍ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(™è´
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ê¯œ£ıÿÿÿÿ

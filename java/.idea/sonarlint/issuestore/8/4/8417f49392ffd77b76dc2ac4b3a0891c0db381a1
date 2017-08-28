@@ -1,0 +1,15 @@
+
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(‚¨Ö§
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾Ï‹‚şÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(‚¨Ö§
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ê¯œ£ıÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¥èÇÍ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(‚¨Ö§
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÊòÜıÿÿÿÿ
+osquid:S1192"UDefine a constant instead of duplicating this literal "è€—è´¹çš„æ—¶é—´ä¸º: " 3 times.(ÊòÜıÿÿÿÿ
