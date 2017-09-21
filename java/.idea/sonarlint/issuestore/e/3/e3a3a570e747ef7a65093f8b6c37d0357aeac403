@@ -1,40 +1,0 @@
-
-_squid:S1192"JDefine a constant instead of duplicating this literal "Cambridge" 5 times.(ı…ÿ‡
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÙŒÉ
-L
-squid:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáB
-L
-squid:S106"9Replace this use of System.out or System.err by a logger.(¥ÖC
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(¬èø´
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(Èâäıÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÃÂ¤¦
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(÷å«Õÿÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(™è´
-Lsquid:S3655"2Call "max.isPresent()" before accessing the value.(÷å«Õÿÿÿÿÿ
-Fsquid:S3655"1Call "op.isPresent()" before accessing the value.(™è´
-Gsquid:S3655"2Call "sum.isPresent()" before accessing the value.(ÃÂ¤¦
-Asquid:S1612",Replace this lambda with a method reference.(ËáØú
-Isquid:S1611"/Remove the parentheses around the "t" parameter(÷âÃªùÿÿÿÿ
-Isquid:S1611"/Remove the parentheses around the "t" parameter(¿•´·şÿÿÿÿ
-Dsquid:S1611"/Remove the parentheses around the "t" parameter(µÂÓÒ
-Isquid:S1611"/Remove the parentheses around the "t" parameter(¡¹‡±üÿÿÿÿ
-Isquid:S1611"/Remove the parentheses around the "t" parameter(¡¹‡±üÿÿÿÿ
-Isquid:S1611"/Remove the parentheses around the "t" parameter(¡¹‡±üÿÿÿÿ
-Isquid:S1611"/Remove the parentheses around the "t" parameter(á¢»êşÿÿÿÿ
-Isquid:S1611"/Remove the parentheses around the "e" parameter(§ÉÃıûÿÿÿÿ
-Dsquid:S1611"/Remove the parentheses around the "t" parameter(ËáØú
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(µù„ùÿÿÿÿ

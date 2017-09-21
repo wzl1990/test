@@ -1,0 +1,27 @@
+
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(ã‡Î3
+Fsquid:S1612",Replace this lambda with a method reference.(È·ùÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ
+Esquid:S1611"0Remove the parentheses around the "sm" parameter(‰‘ÛŞ
+Isquid:S1611"/Remove the parentheses around the "e" parameter(È·ùÿÿÿÿ
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(¥ÖC
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(î¼ùš
+Qsquid:S1854"7Remove this useless assignment to local variable "str".(æÊö¢øÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÅÂ™¡
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(÷ˆéıÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ËŞõŒ
+Asquid:S1602",Remove useless curly braces around statement(‰‘ÛŞ
+Asquid:S1612",Replace this lambda with a method reference.(’å¯„
+Dsquid:S1611"/Remove the parentheses around the "x" parameter(’å¯„
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(†½ù1
+Bsquid:S1481"(Remove this unused "str" local variable.(æÊö¢øÿÿÿÿ

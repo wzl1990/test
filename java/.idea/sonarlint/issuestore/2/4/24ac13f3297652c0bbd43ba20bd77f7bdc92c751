@@ -1,9 +1,0 @@
-
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
-Nsquid:S3655"4Call "count.isPresent()" before accessing the value.(²Ûø‘ÿÿÿÿÿ
-Isquid:S1611"/Remove the parentheses around the "x" parameter(‡òéˆúÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(²Ûø‘ÿÿÿÿÿ
-Isquid:S1611"/Remove the parentheses around the "e" parameter(ÓôßËüÿÿÿÿ
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(µù„žùÿÿÿÿ

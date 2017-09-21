@@ -1,9 +1,0 @@
-
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¦ŽÐùÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÚÞÓ¶üÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(…¯¹Ýýÿÿÿÿ
-Nsquid:S3400"9Remove this method and declare a constant for this value.(È¸å
-=squid:S1172"(Remove this unused method parameter "n".(áæ›«
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(µù„žùÿÿÿÿ

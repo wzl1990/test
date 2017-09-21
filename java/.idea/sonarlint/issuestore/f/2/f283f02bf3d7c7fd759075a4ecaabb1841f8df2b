@@ -1,0 +1,22 @@
+
+Dsquid:S1611"/Remove the parentheses around the "e" parameter(Ô·œ™
+Gsquid:S3655"2Call "op2.isPresent()" before accessing the value.(ÍÄ¦
+Asquid:S1612",Replace this lambda with a method reference.(Ëëß
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿°â¼
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(«‹Îõ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(”æ©Ôÿÿÿÿÿ
+Fsquid:S3655"1Call "op.isPresent()" before accessing the value.(ØÑ¿
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(«‹Îõ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(èèî¤
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÍÄ¦
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(•·ûõûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(•·ûõûÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(™è´

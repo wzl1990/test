@@ -1,29 +1,28 @@
 package com.wzl.java2;
 
-import java.util.Arrays;
-import java.util.DoubleSummaryStatistics;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.Set;
-import java.util.stream.Collectors;
-
 import org.junit.Test;
 
-import com.atguigu.java8.Employee.Status;
+import java.util.*;
+import java.util.stream.Collectors;
+
+
 
 public class TestStreamAPI3 {
 	
 	List<Employee> emps = Arrays.asList(
-			new Employee(102, "李四", 79, 6666.66, Status.BUSY),
-			new Employee(101, "张三", 18, 9999.99, Status.FREE),
-			new Employee(103, "王五", 28, 3333.33, Status.VOCATION),
-			new Employee(104, "赵六", 8, 7777.77, Status.BUSY),
-			new Employee(104, "赵六", 8, 7777.77, Status.FREE),
-			new Employee(104, "赵六", 8, 7777.77, Status.FREE),
-			new Employee(105, "田七", 38, 5555.55, Status.BUSY)
+			new Employee(102, "李四", 79, 6666.66, Employee.Status.BUSY),
+			new Employee(101, "张三", 18, 9999.99, Employee.Status.FREE),
+			new Employee(103, "王五", 28, 3333.33, Employee.Status.VOCATION),
+			new Employee(104, "赵六", 8, 7777.77, Employee.Status.BUSY),
+			new Employee(104, "赵六", 8, 7777.77, Employee.Status.FREE),
+			new Employee(104, "赵六", 8, 7777.77, Employee.Status.FREE),
+			new Employee(105, "田七", 38, 5555.55,Employee.Status.BUSY)
 	);
+
+	@Test
+	public void test0(){
+		Map<Integer, String> s = emps.stream().collect(Collectors.toMap(Employee::getAge, Employee::getName, (k1, k2) -> k1));
+	}
 	
 	//3. 终止操作
 	/*
@@ -33,7 +32,6 @@ public class TestStreamAPI3 {
 	@Test
 	public void test1(){
 		List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
-		
 		Integer sum = list.stream()
 			.reduce(0, (x, y) -> x + y);
 		
@@ -129,7 +127,7 @@ public class TestStreamAPI3 {
 	//分组
 	@Test
 	public void test5(){
-		Map<Status, List<Employee>> map = emps.stream()
+		Map<Employee.Status, List<Employee>> map = emps.stream()
 			.collect(Collectors.groupingBy(Employee::getStatus));
 		
 		System.out.println(map);
@@ -138,7 +136,7 @@ public class TestStreamAPI3 {
 	//多级分组
 	@Test
 	public void test6(){
-		Map<Status, Map<String, List<Employee>>> map = emps.stream()
+		Map<Employee.Status, Map<String, List<Employee>>> map = emps.stream()
 			.collect(Collectors.groupingBy(Employee::getStatus, Collectors.groupingBy((e) -> {
 				if(e.getAge() >= 60)
 					return "老年";
