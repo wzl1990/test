@@ -1,50 +1,0 @@
-
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ç°³¢
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(¬ó˜°ıÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(åİàÔ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(‚¨Ö§
-Gsquid:S3655"2Call "sum.isPresent()" before accessing the value.(ÃÂ¤¦
-Dsquid:S1611"/Remove the parentheses around the "e" parameter( µÓ°
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(íê­…
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(­¸¤Êúÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(÷å«Õÿÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(™è´
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÇÚñ“
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÃÂ¤¦
-Esquid:S1611"0Remove the parentheses around the "ch" parameter(Ä•ÓÒ
-Isquid:S1611"/Remove the parentheses around the "e" parameter(¹âÈàøÿÿÿÿ
-Lsquid:S3655"2Call "max.isPresent()" before accessing the value.(÷å«Õÿÿÿÿÿ
-L
-squid:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáB
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(‚¨Ö§
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÃÂ¤¦
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(Õ÷õúÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(™è´
-L
-squid:S106"9Replace this use of System.out or System.err by a logger.(–¥ìC
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ
-Fsquid:S3655"1Call "op.isPresent()" before accessing the value.(™è´
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(Õ÷õúÿÿÿÿ
-Gsquid:S3655"2Call "sum.isPresent()" before accessing the value.(ÃÂ¤¦

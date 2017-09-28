@@ -1,29 +1,0 @@
-
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(Èâäıÿÿÿÿ
-Dsquid:S1611"/Remove the parentheses around the "e" parameter(„’õü
-?squid:S1481"*Remove this unused "count" local variable.(é¡Î™
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(™è´
-Nsquid:S1854"9Remove this useless assignment to local variable "count".(é¡Î™
-Isquid:S1611"/Remove the parentheses around the "e" parameter(·¨²Èùÿÿÿÿ
-Dsquid:S1611"/Remove the parentheses around the "e" parameter(ëÜÍ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÖÃùúşÿÿÿÿ
-Isquid:S1611"/Remove the parentheses around the "e" parameter(øÁµıÿÿÿÿ
-Fsquid:S3655"1Call "op.isPresent()" before accessing the value.(™è´
-Dsquid:S1611"/Remove the parentheses around the "e" parameter(„’õü
-Fsquid:S3655"1Call "op.isPresent()" before accessing the value.(™è´
-Isquid:S1611"/Remove the parentheses around the "e" parameter(¿´¸şøÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(™è´
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÍÄ¦
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(±Œ•¯
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(òÔÇÍ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÍÄ¦
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ
