@@ -24,6 +24,14 @@ public class TestLambda2 {
 			new Apple("red",150)
 
 	);
+
+	@Test
+	public void test4() {
+		Stream<String> stringStream = apples.stream().flatMap(e -> Arrays.stream(e.getColor().split("")));
+		List<String> collect = stringStream.collect(Collectors.toList());
+		System.out.println(collect);
+	}
+
 	@Test
 	public void test3() {
 		List<String> list=Arrays.asList("HELLO","WORD");
