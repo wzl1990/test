@@ -1,6 +1,8 @@
 package lambdasinaction.chap3;
 
 import java.util.*;
+import java.util.function.Function;
+
 import static java.util.Comparator.comparing;
 
 public class Sorting {
@@ -39,6 +41,8 @@ public class Sorting {
         
         // 4
         // [Apple{color='red', weight=10}, Apple{color='red', weight=20}, Apple{color='green', weight=155}]
+        final Function<Apple, Integer> getWeight = Apple::getWeight;
+        final Comparator<Apple> comparing = comparing(Apple::getWeight);
         inventory.sort(comparing(Apple::getWeight));
         System.out.println(inventory);       
     }

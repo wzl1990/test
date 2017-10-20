@@ -6,10 +6,7 @@ import com.wzl.java1.java8.Apple;
 import org.apache.poi.ss.formula.functions.T;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.function.BiPredicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -18,10 +15,10 @@ import java.util.stream.Stream;
 public class TestLambda2 {
 	
 	List<Apple> apples = Arrays.asList(
-			new Apple("red",100),
-			new Apple("green",90),
-			new Apple("green",120),
-			new Apple("red",150)
+			new Apple("1red",100),
+			new Apple("2green",90),
+			new Apple("3green",120),
+			new Apple("4red",150)
 
 	);
 
@@ -42,6 +39,17 @@ public class TestLambda2 {
 				.sorted((e1,e2)->e2.compareTo(e1))
 				.collect(Collectors.toList());
 		System.out.println(collect);
+	}
+
+	@Test
+	@SuppressWarnings("all")
+	public void test10(){
+		System.out.println("2".compareTo("1"));
+		Optional<Apple> any = apples.stream().filter(e -> {
+			System.out.println("filger" + e.getWeight());
+			return e.getColor().compareTo("5")>0;
+		}).findAny();
+		System.out.println(any.isPresent()==true?any.get():null);
 	}
 
 	@Test
