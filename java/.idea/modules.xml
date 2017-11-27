@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../aviator/aviator.iml" filepath="$PROJECT_DIR$/../aviator/aviator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dongnao/dongnao.iml" filepath="$PROJECT_DIR$/../dongnao/dongnao.iml" />
       <module fileurl="file://$PROJECT_DIR$/java.iml" filepath="$PROJECT_DIR$/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Java8InAction/lambdasinaction.iml" filepath="$PROJECT_DIR$/../Java8InAction/lambdasinaction.iml" />
     </modules>

@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="aviator" />
+        <module name="dongnao" />
         <module name="java" />
         <module name="lambdasinaction" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="aviator" target="1.6" />
+      <module name="dongnao" target="1.8" />
       <module name="java" target="1.8" />
       <module name="lambdasinaction" target="1.9" />
     </bytecodeTargetLevel>
