@@ -4,9 +4,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../Java8InAction/pom.xml" />
-        <option value="$PROJECT_DIR$/../aviator/pom.xml" />
-        <option value="$PROJECT_DIR$/../dongnao/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,8 +1,8 @@
 package com.wzl.java8.course2.java8;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.junit.Test;
@@ -24,10 +24,22 @@ public class TestStreamAPI2 {
 			new Employee(101, "张三", 18, 9999.99, Employee.Status.FREE),
 			new Employee(103, "王五", 28, 3333.33, Employee.Status.VOCATION),
 			new Employee(104, "赵六", 8, 7777.77, Employee.Status.BUSY),
-			new Employee(104, "赵六", 8, 7777.77, Employee.Status.FREE),
-			new Employee(104, "赵六", 8, 7777.77, Employee.Status.FREE),
-			new Employee(105, "田七", 38, 5555.55, Employee.Status.BUSY)
+			new Employee(104, "赵六", 8, 3777.77, Employee.Status.FREE),
+			new Employee(104, "赵六", 8, 7277.77, Employee.Status.FREE),
+			new Employee(105, "田七", 38, 12122, Employee.Status.BUSY),
+			new Employee(105, "田七", 38, 5555.55, Employee.Status.BUSY),
+			new Employee(105, "田七", 38, 12, Employee.Status.BUSY),
+			new Employee(105, "田七", 38, 1, Employee.Status.BUSY)
 	);
+
+	@Test
+	public void test0(){
+		Map<Integer, List<Employee>> collect = emps.stream().sorted(Comparator.comparing(Employee::getSalary).reversed()).collect(Collectors.groupingBy(Employee::getId));
+		collect.forEach((a,b)->{
+			System.out.println(b);
+		});
+	}
+
 	
 	//3. 终止操作
 	/*
@@ -60,12 +72,15 @@ public class TestStreamAPI2 {
 	
 	@Test
 	public void test2(){
+
+		emps.sort((e1, e2) -> Double.compare(e1.getSalary(), e2.getSalary()));
+		System.out.println(emps);
 		Optional<Employee> op = emps.stream()
 			.sorted((e1, e2) -> Double.compare(e1.getSalary(), e2.getSalary()))
 			.findFirst();
-		
+
 		System.out.println(op.get());
-		
+
 		System.out.println("--------------------------------");
 		
 		Optional<Employee> op2 = emps.parallelStream()

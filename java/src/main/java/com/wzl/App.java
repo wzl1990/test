@@ -3,6 +3,7 @@ package com.wzl;
 import org.junit.Test;
 
 import java.math.BigDecimal;
+import java.util.*;
 
 /**
  * Hello world!
@@ -10,6 +11,29 @@ import java.math.BigDecimal;
  */
 public class App 
 {
+    
+    @Test
+    public void test09() {
+        List<Integer> integers = Arrays.asList(1, 5, 8, 3, 5, 23, 45);
+        for (Iterator iterator = integers.iterator(); iterator.hasNext(); ) {
+            System.out.println(iterator.next());
+        }
+        Map<String, String> map = new HashMap();
+        map.put("a", "a");
+        Set<Map.Entry<String, String>> entries = map.entrySet();
+        for (Map.Entry entry : entries) {
+            System.out.println(entry.getKey());
+            System.out.println(entry.getValue());
+        }
+    }
+
+
+        @Test
+    public  void test18(){
+        BigDecimal bigDecimal=new BigDecimal("17");
+        bigDecimal.setScale(2);
+        System.out.println(bigDecimal);
+    }
 
     @Test
     public  void test(){

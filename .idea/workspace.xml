@@ -2,7 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2853f023-7ca9-4c85-badf-fac685b399fb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b37e5367667721ed3b9581861d9e59678890e56" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d19040595edad4c199d17448b798dc144c27905" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c4487513ec109d93d87db1997fd38ac7174beff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9fc8ca600deae67d7ed1bea778ae0c93196010b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce3573486b405d950764d9f94b8895154d0e69f0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f159e20b7839d48895e8e34fc700b59d7f35a27b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/exer/ApplePredicate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/exer/Dish.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/exer/MyFunction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/exer/MyFunction2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/exer/SortTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/exer/TestGroup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/exer/TestLambda.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/exer/TestLambda2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/exer/TestLambda3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/exer/TestTransaction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/exer/Trader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/exer/Transaction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/java8/Apple.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/java8/Employee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/java8/FilterEmployeeForAge.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/java8/FilterEmployeeForSalary.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/java8/MyFun.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/java8/MyPredicate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/java8/TestLambda1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/java8/TestLambda2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/java8/TestLambda3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/java8/TestMethodRef.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java1/java8/TestStreamaAPI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/exer/TestStreamAPI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/exer/TestTransaction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/exer/Trader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/exer/Transaction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/DateFormatThreadLocal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/Employee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/ForkJoinCalculate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/Godness.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/Man.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/MyClass.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/MyFun.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/MyInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/NewMan.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/SubClass.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/TestDefaultInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/TestForkJoin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/TestLocalDateTime.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/TestOptional.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/TestSimpleDateFormat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/TestStreamAPI1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/TestStreamAPI2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/TestStreamAPI3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/java8/Tester.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc/TestAtomicDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc/TestCompareAndSwap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc/TestCopyOnWriteArrayList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc/TestCountDownLatch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc/TestSwap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc/TestVolatile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc2/TestABCAlternate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc2/TestCallable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc2/TestForkJoinPool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc2/TestLock.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc2/TestProductorAndConsumer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc2/TestProductorAndConsumerForLock.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc2/TestReadWriteLock.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc2/TestScheduledThreadPool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc2/TestThread8Monitor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/juc2/TestThreadPool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/nio/TestBuffer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/nio/TestChannel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/nio2/TestBlockingNIO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/nio2/TestBlockingNIO2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/nio2/TestNIO_2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/nio2/TestNonBlockingNIO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/nio2/TestNonBlockingNIO2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/java/src/main/java/com/wzl/nio2/TestPipe.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/java/.idea/sonarlint/issuestore/index.pb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/.idea/compiler.xml" afterPath="$PROJECT_DIR$/java/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/.idea/encodings.xml" afterPath="$PROJECT_DIR$/java/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/.idea/misc.xml" afterPath="$PROJECT_DIR$/java/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/.idea/modules.xml" afterPath="$PROJECT_DIR$/java/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/java/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/pom.xml" afterPath="$PROJECT_DIR$/java/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/java/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +97,68 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CurrentConditionDisplay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/design/observer/CurrentConditionDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WehterStation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/design/observer/WehterStation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeahterDataSubject.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/design/observer/WeahterDataSubject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisplayElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/design/observer/DisplayElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/design/observer/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Subject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/design/observer/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -34,6 +179,7 @@
       <list>
         <option value="$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java" />
         <option value="$PROJECT_DIR$/java/pom.xml" />
+        <option value="$PROJECT_DIR$/java/src/main/java/com/wzl/design/observer/WeahterDataSubject.java" />
       </list>
     </option>
   </component>
@@ -52,12 +198,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -143,9 +284,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,13 +328,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wzl" type="462c0819:PsiDirectoryNode" />
-              <item name="java2" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wzl" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,45 +486,51 @@
       <workItem from="1505904710887" duration="168000" />
       <workItem from="1505984472561" duration="25000" />
       <workItem from="1506326352240" duration="10000" />
+      <workItem from="1509628855889" duration="35000" />
+      <workItem from="1509712276208" duration="8000" />
+      <workItem from="1510569552898" duration="599000" />
+      <workItem from="1510630550208" duration="592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3513000" />
+    <option name="totallyTimeSpent" value="4747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08895265" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09123563" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27474892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27873564" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -421,38 +578,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestDefaultInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestOptional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java" />
     <entry file="file://$PROJECT_DIR$/java/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
         <state />
@@ -464,24 +590,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java3/SteamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="70" lean-forward="false" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestDefaultInterface.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestOptional.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java3/SteamTest.java" />
     <entry file="file://$PROJECT_DIR$/java/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
         <state />
@@ -493,46 +606,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestDefaultInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestOptional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java3/SteamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestDefaultInterface.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java3/SteamTest.java" />
     <entry file="file://$PROJECT_DIR$/java/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
         <state />
@@ -544,48 +622,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestDefaultInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="70" lean-forward="false" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java3/SteamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestDefaultInterface.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java3/SteamTest.java" />
     <entry file="file://$PROJECT_DIR$/java/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
         <state />
@@ -597,247 +638,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestDefaultInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="70" lean-forward="true" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java3/SteamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestDefaultInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java3/SteamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java3/SteamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="65" column="43" lean-forward="false" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java3/SteamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestDefaultInterface.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java3/SteamTest.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java3/SteamTest.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java3/SteamTest.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java" />
     <entry file="file://$PROJECT_DIR$/java8/pom.xml" />
     <entry file="file://$PROJECT_DIR$/java8/java8.iml" />
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java3/SteamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestDefaultInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="70" lean-forward="false" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="70" column="38" lean-forward="false" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestOptional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java3/SteamTest.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI1.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestDefaultInterface.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI3.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestStreamAPI2.java" />
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/java2/TestOptional.java" />
     <entry file="file://$PROJECT_DIR$/java/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
         <state />
@@ -845,6 +669,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/design/observer/CurrentConditionDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/design/observer/WehterStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/design/observer/DisplayElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/design/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/design/observer/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/wzl/design/observer/WeahterDataSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
