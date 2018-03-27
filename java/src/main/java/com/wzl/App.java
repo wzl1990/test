@@ -4,6 +4,8 @@ import org.junit.Test;
 
 import java.math.BigDecimal;
 import java.util.*;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
 
 /**
  * Hello world!
@@ -30,6 +32,8 @@ public class App
 
         @Test
     public  void test18(){
+            Executors.newCachedThreadPool();
+
         BigDecimal bigDecimal=new BigDecimal("17");
         bigDecimal.setScale(2);
         System.out.println(bigDecimal);

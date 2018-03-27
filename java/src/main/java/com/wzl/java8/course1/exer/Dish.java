@@ -1,5 +1,9 @@
 package com.wzl.java8.course1.exer;
 
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 public class Dish {
 
     private final String name;

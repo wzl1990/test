@@ -53,8 +53,12 @@ public class TestOptional {
 
 	@Test
 	public void test1(){
-		Optional<Employee> op = Optional.of(new Employee());
-		Employee emp = op.get();
+		Optional<Employee> op = Optional.of(null);
+
+		Employee emp = op.orElseGet(()->{
+
+return null;
+		});
 		System.out.println(emp);
 	}
 	
